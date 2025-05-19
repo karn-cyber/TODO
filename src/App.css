@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+}
+h1{
+    text-align: center;
+    margin:20px;
+}
+form{
+    width: 1170px;
+    margin:auto;
+    display:flex;
+    gap:20;
+   padding:40px;
+}
+form input{
+    padding:20px;
+    height:40px;
+    flex-basis: 80%;
+}
+form button{
+    flex-basis: 20%;
+    color:white;
+    background-color: black;
+    border:none;
+    height:40px;
+    margin:0 10px;
+}
+form ::placeholder{
+    padding:10px;
+}
+.OuterList{
+    width: 1170px;
+    margin:auto;
+}
+.OuterList ul{
+    margin:0 ;
+    margin-top:50px;
+    padding:0;
+    list-style: none;
+     
+}
+
+.OuterList ul li {
+    padding: 10px;
+    border: 1px solid black;
+    margin: 10px 0;
+    font-size: 20px;
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    display: flex;
+    justify-content: space-between; /* ensures span goes to the right */
+    align-items: center;
+    position: relative; /* enables absolute children if needed */
+}
+
+.OuterList ul li span {
+    cursor: pointer;
+    color: white;
+    /* No need for absolute unless you're doing advanced placement */
+}
