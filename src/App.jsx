@@ -43,6 +43,7 @@ const App = () => {
     const templateParams = {
       message: message,
       user_email: email,
+      name: 'User', // or ask for the user's name in a form input
     };
 
     emailjs.send(
